@@ -1,4 +1,4 @@
-name: vitessce-jupyter-dev
+name: vitessce-python-dev
 channels:
  - bioconda
  - conda-forge
@@ -12,6 +12,11 @@ dependencies:
  - scipy>=1.0.0
  - nbsphinx>=0.7.1
  - pandoc>=2.11.3
+ - snakemake>=6.0
+ - h5py>=2.10.0
+ - networkx>=2.4
+ - scanpy>=1.6.0
+ - leidenalg>=0.8.3
  - pip
  - pip:
    - build==0.1.0
@@ -20,3 +25,4 @@ dependencies:
    - sphinx-rtd-theme
    - nbclean>=0.3.2
    - generate-tiff-offsets>=0.1.7
+   - obonet>=0.2.5
